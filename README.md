@@ -1,31 +1,34 @@
 # 🛒 CommerceX
 
-### Modern MERN E-Commerce Platform
+<p align="center">
+  <strong>Modern MERN E-Commerce Platform</strong>
+</p>
 
-CommerceX is a modern full-stack MERN e-commerce platform that provides secure authentication, product management, shopping cart functionality, and an intuitive shopping experience.
+<p align="center">
+A full-stack e-commerce application built with the MERN stack, featuring secure authentication, product management, shopping cart functionality, and a responsive user interface.
+</p>
 
 ---
 
-## ✨ Features
+## 🚀 Features
 
-- 🔐 JWT Authentication
+- 🔐 Secure JWT Authentication
 - 👤 User Registration & Login
-- 🛍️ Product Catalog
+- 🛍️ Browse Products
 - 🔍 Product Search
 - 🛒 Shopping Cart
 - ❤️ Wishlist
 - 📦 Order Management
 - 👨‍💼 Admin Dashboard
-- 📱 Responsive Design
-- ⚡ Fast React + Vite Frontend
+- 📱 Fully Responsive Design
 
 ---
 
-## 🛠 Tech Stack
+## 🛠️ Tech Stack
 
 ### Frontend
 - React
-- TypeScript / JavaScript
+- Vite
 - Tailwind CSS
 - React Router
 - Axios
@@ -42,57 +45,13 @@ CommerceX is a modern full-stack MERN e-commerce platform that provides secure a
 ## 📂 Project Structure
 
 ```
-ShopSphere
+CommerceX
 │
-├── Client
-│
-├── Server
-│
+├── client
+├── server
+├── docs
+│   └── screenshots
 └── README.md
-```
-
----
-
-## 🚀 Installation
-
-### Clone Repository
-
-```bash
-git clone https://github.com/shroukwagdysayed/ShopSphere.git
-```
-
-### Client
-
-```bash
-cd Client
-npm install
-npm run dev
-```
-
-### Server
-
-```bash
-cd Server
-npm install
-npm run dev
-```
-
----
-
-## 🔑 Environment Variables
-
-Create `.env` inside the server folder.
-
-```env
-MONGO_URI=
-
-JWT_SECRET=
-
-CLOUDINARY_NAME=
-
-CLOUDINARY_API_KEY=
-
-CLOUDINARY_API_SECRET=
 ```
 
 ---
@@ -101,35 +60,74 @@ CLOUDINARY_API_SECRET=
 
 ### Home
 
-(Add screenshot)
+> Add a screenshot here
 
 ### Products
 
-(Add screenshot)
+> Add a screenshot here
 
 ### Product Details
 
-(Add screenshot)
+> Add a screenshot here
 
-### Cart
+### Shopping Cart
 
-(Add screenshot)
+> Add a screenshot here
 
-### Dashboard
+### Login
 
-(Add screenshot)
+> Add a screenshot here
+
+---
+
+## ⚙️ Installation
+
+### Clone the repository
+
+```bash
+git clone https://github.com/shroukwagdysayed/CommerceX.git
+```
+
+### Client
+
+```bash
+cd client
+npm install
+npm run dev
+```
+
+### Server
+
+```bash
+cd server
+npm install
+npm run dev
+```
+
+---
+
+## 🔑 Environment Variables
+
+Create a `.env` file inside the `server` folder.
+
+```env
+MONGO_URI=
+JWT_SECRET=
+```
+
+> Add any additional environment variables required by your project.
 
 ---
 
 ## 🎯 Future Improvements
 
-- Stripe Payment Integration
-- Product Reviews
-- Coupon System
-- Email Verification
-- Forgot Password
-- Dark Mode
-- Push Notifications
+- 💳 Online Payment Integration
+- ⭐ Product Reviews
+- 🎟️ Coupon System
+- 📧 Email Verification
+- 🔄 Forgot Password
+- 🌙 Dark Mode
+- 🔔 Notifications
 
 ---
 
@@ -137,5 +135,4 @@ CLOUDINARY_API_SECRET=
 
 **Mohamed Atef**
 
-GitHub:
-https://github.com/shroukwagdysayed
+GitHub: https://github.com/shroukwagdysayed
