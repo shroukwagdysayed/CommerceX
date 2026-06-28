@@ -1,5 +1,5 @@
 {
-  "name": "mern-ecommerce-server",
+  "name": "commercex-server",
   "version": "1.0.0",
   "description": "TypeScript backend for MERN E-Commerce platform",
   "main": "dist/server.js",
